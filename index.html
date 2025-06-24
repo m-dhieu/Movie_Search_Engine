@@ -1,0 +1,27 @@
+<!-- 
+TVmaze Show Search Page:
+Includes a search bar to input the show name for searching, and a loading spinner to appear while fetching results.
+-->
+
+
+<section>
+<body>
+    <div class="container">
+        <h1>TVmaze Show Search</h1>
+        <div class="search-bar">
+            <input type="text" id="showName" placeholder="Enter show name">
+            <button id="searchBtn" onclick="searchShow()" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="#08477f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+            </button>
+        </div>
+        <div id="loading" class="loading-container" style="display:none;">
+            <div class="spinner"></div>
+            <span>Loading...</span>
+        </div>
+        <div id="results"></div>
+    </div>
+</body>
+</section>
