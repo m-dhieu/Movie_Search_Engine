@@ -1,6 +1,7 @@
 /*
 TVmaze Show Search Engine:
 Function to search for and fetch TV shows using the TVmaze API.
+
 Main program flow:
 1. Get user's input (show name)
 2. Show loading spinner
